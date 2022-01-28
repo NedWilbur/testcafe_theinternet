@@ -1,3 +1,4 @@
+import alertsPage from "./alerts.page";
 import checkboxesPage from "./checkboxes.page";
 import dropdownPage from "./dropdown.page";
 import fileDownloadPage from "./filedownload.page";
@@ -9,6 +10,7 @@ class Pages {
     Dropdown = dropdownPage;
     Download = fileDownloadPage;
     Upload = fileuploadPage;
+    Alert = alertsPage;
 }
 
 export default new Pages();
