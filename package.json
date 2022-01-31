@@ -1,5 +1,6 @@
 {
     "devDependencies": {
-        "testcafe": "^1.18.3"
+        "testcafe": "^1.18.3",
+        "gherkin-testcafe": "^5.1.0"
     }
 }
