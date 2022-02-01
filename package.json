@@ -2,5 +2,8 @@
     "devDependencies": {
         "testcafe": "^1.18.3",
         "gherkin-testcafe": "^5.1.0"
+    },
+    "scripts": {
+        "bdd": "npx gherkin-testcafe chrome ./tests/bdd/*.ts ./tests/bdd/*.feature"
     }
 }
