@@ -2,7 +2,7 @@ import { Selector, t } from 'testcafe';
 
 class AlertsPage {
     public El = new class {
-        private Buttons: Selector = Selector('button');
+        Buttons: Selector = Selector('button');
         AlertButton: Selector = this.Buttons.withText('Alert');
         ConfirmButton: Selector = this.Buttons.withText('Confirm');
         PromptButton: Selector = this.Buttons.withText('Prompt');
